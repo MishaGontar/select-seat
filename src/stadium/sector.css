@@ -1,0 +1,32 @@
+.map-point {
+    position: relative;
+}
+
+.map-sector * {
+    user-select: none;
+}
+
+.sold {
+    opacity: 40%;
+}
+
+.tooltip-group {
+    display: none;
+    pointer-events: none;
+}
+
+.hoverable-circle:hover + .tooltip-group,
+.hoverable-circle:active + .tooltip-group {
+    display: block;
+}
+
+.tooltip-content {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+}
+

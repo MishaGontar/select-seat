@@ -1,0 +1,17 @@
+.scroll-container {
+    display: flex;
+    justify-content: center; /* Горизонтальне центрування */
+    align-items: center; /* Вертикальне центрування */
+    width: 100vw; /* Заповнити всю ширину вікна */
+    height: 100vh; /* Заповнити всю висоту вікна */
+    overflow: hidden; /* Приховати зайве */
+}
+
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  scrollbar-width: none; /* Для Firefox */
+}
